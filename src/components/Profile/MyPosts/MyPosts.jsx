@@ -10,7 +10,7 @@ const MyPosts = (props) => {
 
     let addPost = () => {
         let t = text.current.value;
-        alert(t)
+        props.addPost(t);
     }
 
     return (
